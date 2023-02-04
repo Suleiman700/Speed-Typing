@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speed Typing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<!--    <link rel="stylesheet" href="assets/css/animated-bg.css">-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text-center" id="intro">
+            <h1 class="display-2 bg-white p-5">Test Your Typing Skills</h1><br>
+            <button class="btn btn-white border-dark hover-zoom shadow-lg" id="start-playing" style="font-size: 2rem;">Start Playing</button>
+        </div>
+        <div class="text-white text-center mt-5" id="game" style="display: none;">
+            <div class="text-center">
+                <p class="display-1 text-dark bg-white">Test Your Typing Skills</p>
+            </div>
+
+            <div class="row text-black bg-white py-1">
+                <div class="col-sm-12 d-flex justify-content-center">
+                    <div>
+                        <div class="card shadow-lg" style="border-radius: 25px; padding: 10px 25px;">
+                            <div class="card-body">
+                                <h1 class="card-text" id="errors-count">0</h1>
+                            </div>
+                        </div>
+                        <p>Errors</p>
+                    </div>
+                    <div>
+                        <div class="card shadow-lg mx-3" style="border-radius: 25px; padding: 10px 25px;">
+                            <div class="card-body">
+                                <h1 class="card-text" id="timer-count">0</h1>
+                            </div>
+                        </div>
+                        <p>Time</p>
+                    </div>
+                    <div>
+                        <div class="card shadow-lg mx-3" style="border-radius: 25px; padding: 10px 25px;">
+                            <div class="card-body">
+                                <h1 class="card-text" id="wpm-count">0</h1>
+                            </div>
+                        </div>
+                        <p>WPM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <div class="card shadow-lg">
+                        <div class="card-body">
+                            <p class="card-text h2 text-muted" id="words-area"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-sm-12">
+                    <textarea class="form-control bg-dark text-white" id="typing-area" cols="4" rows="4" placeholder="Start typing here..."></textarea>
+                </div>
+            </div>
+            <button class="btn btn-success mt-3" id="next-level" style="font-size: 1.5rem; display: none;">Next</button>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

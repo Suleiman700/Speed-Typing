@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    font-family: 'Itim', cursive;
+}
+
+body {
+    /*background: hsl(243deg 41% 51%);*/
+    background-image: url("https://res.cloudinary.com/dn1j6dpd7/image/upload/f_auto,q_auto/v1600423784/typing-speed-test/test-bg-left.png"),url("https://res.cloudinary.com/dn1j6dpd7/image/upload/f_auto,q_auto/v1600423784/typing-speed-test/test-bg-right.png");
+}
+
+#intro {
+    height: 100vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#typing-area {
+    font-size: 28px;
+}
+
+button#start-playing:hover {
+    background: black;
+    color: white;
+}

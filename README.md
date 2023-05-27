@@ -25,4 +25,6 @@ Features:
   </tr>
 </table>
 
+![chrome_WAHzFF5r7H](https://github.com/Suleiman700/Speed-Typing/assets/25286081/4f872779-a8cc-436c-9d3b-372ec5aa2f9b)
+
 https://user-images.githubusercontent.com/25286081/216739694-f72740ba-7175-4456-90f8-d0931fee5765.mp4
